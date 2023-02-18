@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+background-color: rgb(243, 231, 231);
+width: 500px;
+border: 1px solid rgb(243, 231, 231);
+border-radius: 5px;
+text-align: center;
+padding: 10px;
+position: absolute;
+top: 100px;
+right: 50px;
+left: 50px;
+z-index: 1000;
+}
+
+#locationName{
+    font-size: 32px;
+}
+#desc{
+    font-size: 28px;
+}
+#temp{
+    font-size: 35px;
+}
+#map { 
+    height: 100vh;
+    position: relative;
+ }
+ #icon{
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+ }
